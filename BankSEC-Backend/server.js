@@ -9,7 +9,7 @@ app.use(express.json()); // Allow sending JSON data
 
 // --- CONFIGURATION ---
 // PASTE YOUR ATLAS STRING HERE ↓ (Replace <db_password>)
-const MONGO_URI = "mongodb+srv://admin:banksec123@banksec-cluster.kstxztx.mongodb.net/?appName=BankSEC-Cluster";
+const MONGO_URI = "";
 
 // --- CONNECT TO DATABASE ---
 mongoose.connect(MONGO_URI)
