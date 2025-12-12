@@ -87,6 +87,9 @@ graph TD
     ChainTx -.-> SmartContract
     AICheck -.-> PythonServer[[Python AI Server]]
 
+```
+
+
 
 ## 🛠️ Tech Stack
 
@@ -111,7 +114,7 @@ Start the local Ethereum network.
 cd BankSEC-Core
 npm install
 npx hardhat node
-
+```
 > Keep this terminal running to maintain the network.
 
 ## 2. Deploy Contracts (Terminal 2)
@@ -120,7 +123,7 @@ Deploy the banking smart contract.
 ```bash
 cd BankSEC-Core
 npx hardhat run scripts/deploy.js --network localhost
-
+```
 
 * **Note:** Copy the `Contract Address` and update it in `BankSEC-UI/src/App.jsx`.
 * **Note:** Copy `BankSEC.json` from `artifacts/` to `BankSEC-UI/src/abis/`.
@@ -131,7 +134,7 @@ npx hardhat run scripts/deploy.js --network localhost
 cd BankSEC-Backend
 npm install
 node server.js
-
+```
 **Tab B: Python AI Server**
 ```bash
 cd BankSEC-AI
@@ -140,7 +143,7 @@ python -m venv venv
 # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 python app.py
-
+```
 ###4. Start Frontend (Terminal 4)
 **Launch the user interface.**
 
@@ -148,7 +151,7 @@ python app.py
 cd BankSEC-UI
 npm install
 npm run dev
-
+```
 ## 📖 Usage Guide
 
 1.  **Admin Login:**
@@ -166,6 +169,6 @@ npm run dev
 ---
 
 ## 📄 License
-This project is open-source and licensed under the MIT License.
+This project is open-source.
 
 <!-- **Developed by [Your Name]** -->
