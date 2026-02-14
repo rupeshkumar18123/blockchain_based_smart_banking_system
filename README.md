@@ -169,6 +169,6 @@ npm run dev
 ---
 
 ## 📄 License
-This project is open-source.
+This project is open-source
 
 <!-- **Developed by [Your Name]** -->
